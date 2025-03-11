@@ -33316,13 +33316,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
+      propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIHistoryManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
+        type: 3}
       propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 205270516}
     - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
       propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UIBase, UIUtilities
+      value: UIBase, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 114809389926825378, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
@@ -34276,13 +34281,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
+      propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIHistoryManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
+        type: 3}
       propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 205270516}
     - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
       propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UIBase, UIUtilities
+      value: UIBase, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 114809389926825378, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
@@ -38613,13 +38623,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
+      propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIHistoryManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
+        type: 3}
       propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 205270516}
     - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
       propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UIBase, UIUtilities
+      value: UIBase, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 114809389926825378, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
@@ -52333,13 +52348,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
+      propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIHistoryManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
+        type: 3}
       propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 205270516}
     - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
       propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UIBase, UIUtilities
+      value: UIBase, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 114809389926825378, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
@@ -54043,13 +54063,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
+      propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIHistoryManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
+        type: 3}
       propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 205270516}
     - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
       propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UIBase, UIUtilities
+      value: UIBase, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 224738158857426900, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
@@ -66085,13 +66110,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
+      propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIHistoryManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
+        type: 3}
       propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 205270516}
     - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
       propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UIBase, UIUtilities
+      value: UIBase, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 114809389926825378, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
@@ -66837,13 +66867,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
+      propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIHistoryManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
+        type: 3}
       propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 205270516}
     - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
       propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UIBase, UIUtilities
+      value: UIBase, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 114809389926825378, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
@@ -72029,13 +72064,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
+      propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIHistoryManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
+        type: 3}
       propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 205270516}
     - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
       propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UIBase, UIUtilities
+      value: UIBase, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 114809389926825378, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
@@ -97447,13 +97487,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
+      propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIHistoryManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
+        type: 3}
       propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 205270516}
     - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
       propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UIBase, UIUtilities
+      value: UIBase, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 114809389926825378, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
@@ -101888,13 +101933,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
+      propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIHistoryManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
+        type: 3}
       propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 205270516}
     - target: {fileID: 114792689321075854, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}
       propertyPath: eventSetStagePreparation.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UIBase, UIUtilities
+      value: UIBase, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 114809389926825378, guid: 5c7d776cc04fe55418a41687dece8cb7,
         type: 3}

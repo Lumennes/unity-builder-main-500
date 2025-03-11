@@ -1406,12 +1406,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1657272168}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: UIHistoryManager, Assembly-CSharp
         m_MethodName: Next
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 2071456053}
-          m_ObjectArgumentAssemblyTypeName: UIBase, UIUtilities
+          m_ObjectArgumentAssemblyTypeName: UIBase, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3902,12 +3902,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1657272168}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: UIHistoryManager, Assembly-CSharp
         m_MethodName: Next
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1289221223}
-          m_ObjectArgumentAssemblyTypeName: UIBase, UIUtilities
+          m_ObjectArgumentAssemblyTypeName: UIBase, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -9274,12 +9274,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1657272168}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: UIHistoryManager, Assembly-CSharp
         m_MethodName: Next
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 397013906}
-          m_ObjectArgumentAssemblyTypeName: UIBase, UIUtilities
+          m_ObjectArgumentAssemblyTypeName: UIBase, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -10848,12 +10848,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1657272168}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: UIHistoryManager, Assembly-CSharp
         m_MethodName: Next
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1289221223}
-          m_ObjectArgumentAssemblyTypeName: UIBase, UIUtilities
+          m_ObjectArgumentAssemblyTypeName: UIBase, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -15098,12 +15098,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1657272168}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: UIHistoryManager, Assembly-CSharp
         m_MethodName: Next
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1003804463}
-          m_ObjectArgumentAssemblyTypeName: UIBase, UIUtilities
+          m_ObjectArgumentAssemblyTypeName: UIBase, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -21011,12 +21011,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1657272168}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: UIHistoryManager, Assembly-CSharp
         m_MethodName: Next
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1310392229}
-          m_ObjectArgumentAssemblyTypeName: UIBase, UIUtilities
+          m_ObjectArgumentAssemblyTypeName: UIBase, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -41242,12 +41242,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1657272168}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: UIHistoryManager, Assembly-CSharp
         m_MethodName: Next
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1012414573}
-          m_ObjectArgumentAssemblyTypeName: UIBase, UIUtilities
+          m_ObjectArgumentAssemblyTypeName: UIBase, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -42533,12 +42533,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1657272168}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: UIHistoryManager, Assembly-CSharp
         m_MethodName: Next
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1632262308}
-          m_ObjectArgumentAssemblyTypeName: UIBase, UIUtilities
+          m_ObjectArgumentAssemblyTypeName: UIBase, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -45964,12 +45964,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1657272168}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: UIHistoryManager, Assembly-CSharp
         m_MethodName: Next
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 252169086}
-          m_ObjectArgumentAssemblyTypeName: UIBase, UIUtilities
+          m_ObjectArgumentAssemblyTypeName: UIBase, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -48814,9 +48814,19 @@ PrefabInstance:
       objectReference: {fileID: 1657272168}
     - target: {fileID: 114733154406664650, guid: a0e4879f5fefb9d409c3bdba514d6109,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIHistoryManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114733154406664650, guid: a0e4879f5fefb9d409c3bdba514d6109,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 979357040}
+    - target: {fileID: 114733154406664650, guid: a0e4879f5fefb9d409c3bdba514d6109,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UIBase, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 114990272588241836, guid: a0e4879f5fefb9d409c3bdba514d6109,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -48824,9 +48834,19 @@ PrefabInstance:
       objectReference: {fileID: 1657272168}
     - target: {fileID: 114990272588241836, guid: a0e4879f5fefb9d409c3bdba514d6109,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIHistoryManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114990272588241836, guid: a0e4879f5fefb9d409c3bdba514d6109,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 1277275214}
+    - target: {fileID: 114990272588241836, guid: a0e4879f5fefb9d409c3bdba514d6109,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UIBase, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 224208426985177192, guid: a0e4879f5fefb9d409c3bdba514d6109,
         type: 3}
       propertyPath: m_Pivot.x
@@ -57238,12 +57258,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1657272168}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: UIHistoryManager, Assembly-CSharp
         m_MethodName: Next
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1987471952}
-          m_ObjectArgumentAssemblyTypeName: UIBase, UIUtilities
+          m_ObjectArgumentAssemblyTypeName: UIBase, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -64775,12 +64795,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1657272168}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: UIHistoryManager, Assembly-CSharp
         m_MethodName: Next
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1289221223}
-          m_ObjectArgumentAssemblyTypeName: UIBase, UIUtilities
+          m_ObjectArgumentAssemblyTypeName: UIBase, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -68353,12 +68373,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1657272168}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: UIHistoryManager, Assembly-CSharp
         m_MethodName: Next
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 676488736}
-          m_ObjectArgumentAssemblyTypeName: UIBase, UIUtilities
+          m_ObjectArgumentAssemblyTypeName: UIBase, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -74747,12 +74767,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1657272168}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: UIHistoryManager, Assembly-CSharp
         m_MethodName: Next
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1096271277}
-          m_ObjectArgumentAssemblyTypeName: UIBase, UIUtilities
+          m_ObjectArgumentAssemblyTypeName: UIBase, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -76292,12 +76312,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1657272168}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: UIHistoryManager, Assembly-CSharp
         m_MethodName: Next
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1226375490}
-          m_ObjectArgumentAssemblyTypeName: UIBase, UIUtilities
+          m_ObjectArgumentAssemblyTypeName: UIBase, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -77376,12 +77396,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1657272168}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: UIHistoryManager, Assembly-CSharp
         m_MethodName: Next
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1541167018}
-          m_ObjectArgumentAssemblyTypeName: UIBase, UIUtilities
+          m_ObjectArgumentAssemblyTypeName: UIBase, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -77740,12 +77760,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1657272168}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: UIHistoryManager, Assembly-CSharp
         m_MethodName: Next
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1857818301}
-          m_ObjectArgumentAssemblyTypeName: UIBase, UIUtilities
+          m_ObjectArgumentAssemblyTypeName: UIBase, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -78138,12 +78158,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1657272168}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: UIHistoryManager, Assembly-CSharp
         m_MethodName: Next
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1289221223}
-          m_ObjectArgumentAssemblyTypeName: UIBase, UIUtilities
+          m_ObjectArgumentAssemblyTypeName: UIBase, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -81087,12 +81107,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1657272168}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: UIHistoryManager, Assembly-CSharp
         m_MethodName: Next
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1386272073}
-          m_ObjectArgumentAssemblyTypeName: UIBase, UIUtilities
+          m_ObjectArgumentAssemblyTypeName: UIBase, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -87847,12 +87867,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1657272168}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: UIHistoryManager, Assembly-CSharp
         m_MethodName: Next
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1601676394}
-          m_ObjectArgumentAssemblyTypeName: UIBase, UIUtilities
+          m_ObjectArgumentAssemblyTypeName: UIBase, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -96448,12 +96468,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1657272168}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: UIHistoryManager, Assembly-CSharp
         m_MethodName: Next
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1503728662}
-          m_ObjectArgumentAssemblyTypeName: UIBase, UIUtilities
+          m_ObjectArgumentAssemblyTypeName: UIBase, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

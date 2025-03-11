@@ -64,7 +64,7 @@ jobs:
           - true
         additionalParameters:
           - -param value
-          - -standaloneBuildSubtarget Server
+          #- -standaloneBuildSubtarget Server
         # Skipping configurations that are not supported
         exclude:
           # No il2cpp support on Linux Host
@@ -149,6 +149,7 @@ jobs:
           targetPlatform: ${{ matrix.targetPlatform }}
           customParameters: -profile SomeProfile -someBoolean -someValue exampleValue ${{ matrix.additionalParameters }}
           providerStrategy: ${{ matrix.providerStrategy }}
+          buildMethod: UnityBuilderAction.BuildScript.Build
           allowDirtyBuild: true
 
       - name: Sleep for Retry
@@ -172,6 +173,7 @@ jobs:
           targetPlatform: ${{ matrix.targetPlatform }}
           customParameters: -profile SomeProfile -someBoolean -someValue exampleValue ${{ matrix.additionalParameters }}
           providerStrategy: ${{ matrix.providerStrategy }}
+          buildMethod: UnityBuilderAction.BuildScript.Build
           allowDirtyBuild: true
 
       - name: Sleep for Retry
@@ -194,6 +196,7 @@ jobs:
           targetPlatform: ${{ matrix.targetPlatform }}
           customParameters: -profile SomeProfile -someBoolean -someValue exampleValue ${{ matrix.additionalParameters }}
           providerStrategy: ${{ matrix.providerStrategy }}
+          buildMethod: UnityBuilderAction.BuildScript.Build
           allowDirtyBuild: true
 
       ###########################

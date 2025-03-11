@@ -50,8 +50,8 @@ jobs:
         unityVersion:
           - 6000.0.41f1
           - 2022.3.59f1
-          - 2022.2.21f1
-          - 2021.3.45f1
+          #- 2022.2.21f1
+          #- 2021.3.45f1
         targetPlatform:
           #- StandaloneOSX # Build a macOS standalone (Intel 64-bit) with mono backend.
           - StandaloneWindows64 # Build a Windows 64-bit standalone with mono backend.

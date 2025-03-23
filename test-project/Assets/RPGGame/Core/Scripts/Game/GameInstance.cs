@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -900,5 +900,12 @@ public partial class GameInstance : MonoBehaviour
         if (onLoadSceneFinish != null)
             onLoadSceneFinish.Invoke(sceneName, loadSceneAsyncOperation.progress);
     }
-    #endregion
+
+  public void OnInitializeFailed(InitializationFailureReason error, string message)
+  {
+    throw new System.NotImplementedException();
+  }
+  #endregion
+
+
 }

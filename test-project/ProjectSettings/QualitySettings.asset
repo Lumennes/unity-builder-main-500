@@ -4,7 +4,7 @@
 QualitySettings:
   m_ObjectHideFlags: 0
   serializedVersion: 5
-  m_CurrentQuality: 0
+  m_CurrentQuality: 5
   m_QualitySettings:
   - serializedVersion: 3
     name: Very Low
@@ -105,7 +105,6 @@ QualitySettings:
     terrainMaxTrees: 50
     excludedTargetPlatforms:
     - WebGL
-    - Standalone
     - Server
     - Android
   - serializedVersion: 3
@@ -158,7 +157,6 @@ QualitySettings:
     terrainMaxTrees: 50
     excludedTargetPlatforms:
     - WebGL
-    - Standalone
     - Server
     - Android
   - serializedVersion: 3
@@ -211,7 +209,6 @@ QualitySettings:
     terrainMaxTrees: 50
     excludedTargetPlatforms:
     - WebGL
-    - Standalone
     - Server
     - Android
   - serializedVersion: 3
@@ -264,7 +261,6 @@ QualitySettings:
     terrainMaxTrees: 50
     excludedTargetPlatforms:
     - WebGL
-    - Standalone
     - Server
     - Android
   - serializedVersion: 3
@@ -317,12 +313,11 @@ QualitySettings:
     terrainMaxTrees: 50
     excludedTargetPlatforms:
     - WebGL
-    - Standalone
     - Server
     - Android
   m_TextureMipmapLimitGroupNames: []
   m_PerPlatformDefaultQuality:
     Android: 0
     Server: 0
-    Standalone: 0
+    Standalone: 5
     WebGL: 0

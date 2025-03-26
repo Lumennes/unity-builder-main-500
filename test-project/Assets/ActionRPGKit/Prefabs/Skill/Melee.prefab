@@ -73,7 +73,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100000}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -147,8 +147,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93be9d65ae07c9a439fe7cbf09529bb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
-  damageMax: 20
+  damage: 1
+  damageMax: 5
   playerAttack: 5
   totalDamage: 0
   variance: 15
@@ -157,7 +157,7 @@ MonoBehaviour:
   shooter: {fileID: 0}
   Popup: {fileID: 400000, guid: 874eb43b6eb6da64e9a6a8a5c07f65f5, type: 3}
   hitEffect: {fileID: 100000, guid: ed67c4f70be253b419b6be1e129f4869, type: 3}
-  flinch: 1
+  flinch: 0
   penetrate: 0
   AttackType: 0
   element: 0

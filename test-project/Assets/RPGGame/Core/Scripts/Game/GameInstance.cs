@@ -900,12 +900,13 @@ public partial class GameInstance : MonoBehaviour
         if (onLoadSceneFinish != null)
             onLoadSceneFinish.Invoke(sceneName, loadSceneAsyncOperation.progress);
     }
-
+  #if ENABLE_PURCHASING && UNITY_PURCHASING && (UNITY_IOS || UNITY_ANDROID)
   public void OnInitializeFailed(InitializationFailureReason error, string message)
   {
     throw new System.NotImplementedException();
   }
-  #endregion
+  #endif
+#endregion
 
 
 }

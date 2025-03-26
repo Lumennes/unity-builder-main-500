@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 [RequireComponent(typeof(StatusC))]
@@ -70,7 +70,7 @@ public class AiNavMesh : MonoBehaviour {
 	private UnityEngine.AI.NavMeshAgent agent;
 	
 	void Start(){
-		gameObject.tag = "Enemy";
+		//gameObject.tag = "Enemy";
 		agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
 		agent.stoppingDistance = approachDistance;
 		agent.speed = speed;
@@ -348,7 +348,7 @@ public class AiNavMesh : MonoBehaviour {
 				}
 				bulletShootout = Instantiate(bulletPrefab, attackPoint.position , attackPoint.rotation) as Transform;
 				bulletShootout.gameObject.SetActive(true);
-				bulletShootout.GetComponent<BulletStatusC>().Setting(atk , matk , "Enemy" , this.gameObject);
+				bulletShootout.GetComponent<BulletStatusC>().Setting(atk , matk , tag , this.gameObject);
 				c++;
 				if(c < attackAnimation.Length){
 					yield return new WaitForSeconds(comboDelay);
@@ -415,7 +415,9 @@ public class AiNavMesh : MonoBehaviour {
 			} 
 		}
 	}
-	
+
+  public string enemyTag1, enemyTag2;
+
 	void FindClosestEnemy(){ 
 		// Find all game objects with tag Enemy
 		float distance = Mathf.Infinity;
@@ -427,7 +429,7 @@ public class AiNavMesh : MonoBehaviour {
 		
 		Collider[] objectsAroundMe = Physics.OverlapSphere(transform.position , findingradius);
 		foreach(Collider obj in objectsAroundMe){
-			if(obj.CompareTag("Player") || obj.CompareTag("Ally")){
+			if(obj.CompareTag(enemyTag1) || obj.CompareTag(enemyTag2)){
 				Vector3 diff = (obj.transform.position - transform.position); 
 				float curDistance = diff.sqrMagnitude; 
 				if (curDistance < distance) { 
@@ -474,7 +476,7 @@ public class AiNavMesh : MonoBehaviour {
 			if(!cancelAttack){
 				Transform bulletShootout = Instantiate(skill, attackPoint.position , attackPoint.rotation) as Transform;
 				bulletShootout.gameObject.SetActive(true);
-				bulletShootout.GetComponent<BulletStatusC>().Setting(atk , matk , "Enemy" , this.gameObject);
+				bulletShootout.GetComponent<BulletStatusC>().Setting(atk , matk , tag , this.gameObject);
 				yield return new WaitForSeconds(delay);
 				freeze = false;
 				castSkill = false;

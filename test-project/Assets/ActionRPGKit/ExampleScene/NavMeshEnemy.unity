@@ -669,6 +669,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100016, guid: be8a5bca06c45364d840d7dd87d94b70, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100044, guid: be8a5bca06c45364d840d7dd87d94b70, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -705,10 +709,42 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 11400010, guid: be8a5bca06c45364d840d7dd87d94b70, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400016, guid: be8a5bca06c45364d840d7dd87d94b70, type: 3}
+      propertyPath: atk
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400018, guid: be8a5bca06c45364d840d7dd87d94b70, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400020, guid: be8a5bca06c45364d840d7dd87d94b70, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400026, guid: be8a5bca06c45364d840d7dd87d94b70, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100044, guid: be8a5bca06c45364d840d7dd87d94b70,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2013164728}
+    - targetCorrespondingSourceObject: {fileID: 100044, guid: be8a5bca06c45364d840d7dd87d94b70,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2013164727}
+    - targetCorrespondingSourceObject: {fileID: 100044, guid: be8a5bca06c45364d840d7dd87d94b70,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2013164726}
     - targetCorrespondingSourceObject: {fileID: 1481316087579970, guid: be8a5bca06c45364d840d7dd87d94b70,
         type: 3}
       insertIndex: -1
@@ -760,14 +796,51 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114399399496298570, guid: 2cc2aea0160325a4eb18261f119c39f3,
+        type: 3}
+      propertyPath: health
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114399399496298570, guid: 2cc2aea0160325a4eb18261f119c39f3,
+        type: 3}
+      propertyPath: maxHealth
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114459483983543340, guid: 2cc2aea0160325a4eb18261f119c39f3,
+        type: 3}
+      propertyPath: enemyTag1
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 114459483983543340, guid: 2cc2aea0160325a4eb18261f119c39f3,
+        type: 3}
+      propertyPath: enemyTag2
+      value: Ally
+      objectReference: {fileID: 0}
+    - target: {fileID: 114459483983543340, guid: 2cc2aea0160325a4eb18261f119c39f3,
+        type: 3}
+      propertyPath: patrolSetting.enable
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cc2aea0160325a4eb18261f119c39f3, type: 3}
+--- !u!4 &689881811 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400090, guid: be8a5bca06c45364d840d7dd87d94b70,
+    type: 3}
+  m_PrefabInstance: {fileID: 560214285}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &694003958 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1099713455146604, guid: be8a5bca06c45364d840d7dd87d94b70,
+    type: 3}
+  m_PrefabInstance: {fileID: 560214285}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &729554299 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100044, guid: be8a5bca06c45364d840d7dd87d94b70,
     type: 3}
   m_PrefabInstance: {fileID: 560214285}
   m_PrefabAsset: {fileID: 0}
@@ -1073,6 +1146,31 @@ PrefabInstance:
     - target: {fileID: 4895421000308214, guid: 2cc2aea0160325a4eb18261f119c39f3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 116.225006
+      objectReference: {fileID: 0}
+    - target: {fileID: 114399399496298570, guid: 2cc2aea0160325a4eb18261f119c39f3,
+        type: 3}
+      propertyPath: health
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114399399496298570, guid: 2cc2aea0160325a4eb18261f119c39f3,
+        type: 3}
+      propertyPath: maxHealth
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114459483983543340, guid: 2cc2aea0160325a4eb18261f119c39f3,
+        type: 3}
+      propertyPath: enemyTag1
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 114459483983543340, guid: 2cc2aea0160325a4eb18261f119c39f3,
+        type: 3}
+      propertyPath: enemyTag2
+      value: Ally
+      objectReference: {fileID: 0}
+    - target: {fileID: 114459483983543340, guid: 2cc2aea0160325a4eb18261f119c39f3,
+        type: 3}
+      propertyPath: patrolSetting.enable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1618,6 +1716,101 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 560214285}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &2013164725 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 95834898160827490, guid: be8a5bca06c45364d840d7dd87d94b70,
+    type: 3}
+  m_PrefabInstance: {fileID: 560214285}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2013164726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729554299}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa3e8f5b68a6f3a4da10091325e7df93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainModel: {fileID: 729554299}
+  followTarget: {fileID: 0}
+  approachDistance: 2
+  detectRange: 120
+  lostSight: 100
+  speed: 5
+  useMecanim: 1
+  animator: {fileID: 2013164725}
+  movingAnimation: {fileID: 7400004, guid: 2434b64943f63cf40958d9a43bfea4dc, type: 3}
+  idleAnimation: {fileID: 7400002, guid: 2434b64943f63cf40958d9a43bfea4dc, type: 3}
+  attackAnimation:
+  - {fileID: 7400016, guid: 2434b64943f63cf40958d9a43bfea4dc, type: 3}
+  - {fileID: 7400018, guid: 2434b64943f63cf40958d9a43bfea4dc, type: 3}
+  - {fileID: 7400020, guid: 2434b64943f63cf40958d9a43bfea4dc, type: 3}
+  - {fileID: 7400022, guid: 2434b64943f63cf40958d9a43bfea4dc, type: 3}
+  - {fileID: 7400024, guid: 2434b64943f63cf40958d9a43bfea4dc, type: 3}
+  hurtAnimation: {fileID: 7400026, guid: 2434b64943f63cf40958d9a43bfea4dc, type: 3}
+  c: 0
+  flinch: 0
+  stability: 0
+  freeze: 0
+  bulletPrefab: {fileID: 400000, guid: f8658e0be2665274fba308c716834c98, type: 3}
+  attackPoint: {fileID: 689881811}
+  attackCast: 0.3
+  comboDelay: 0.3
+  attackDelay: 0.5
+  followState: 0
+  cancelAttack: 0
+  attackVoice: {fileID: 8300000, guid: 2f4799e6c7eb97b488b6d7d3c3fc2693, type: 3}
+  hurtVoice: {fileID: 0}
+  aimAtTarget: 1
+  aimUpward: 0.8
+  patrolSetting:
+    enable: 0
+    patrolSpeed: 4
+    idleDuration: 1.5
+    moveDuration: 1.5
+  enemyTag1: Enemy
+  enemyTag2: Boss
+--- !u!114 &2013164727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729554299}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec62ad83b845a9428595db0ab661ef2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gravity: 7
+  bounce: 0
+  freezeGravity: 0
+  stability: 0
+--- !u!195 &2013164728
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729554299}
+  m_Enabled: 0
+  m_AgentTypeID: 0
+  m_Radius: 0.03
+  m_Speed: 5
+  m_Acceleration: 120
+  avoidancePriority: 50
+  m_AngularSpeed: 500
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 0.19
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &2040119077 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1782150012762816, guid: be8a5bca06c45364d840d7dd87d94b70,

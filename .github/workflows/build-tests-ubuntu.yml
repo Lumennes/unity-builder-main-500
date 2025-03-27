@@ -37,7 +37,7 @@ env:
 jobs:
   buildForAllPlatformsUbuntu:
     name:
-      "${{ matrix.targetPlatform }}$ on ${{ matrix.unityVersion}}$"
+      "${{ matrix.targetPlatform }}$ on ${{ matrix.unityVersion}}"
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -59,8 +59,8 @@ jobs:
           - 2022.3.40f1
           - 2022.3.30f1
           - 2022.3.20f1
-          - 2022.3.10f1
-          - 2022.3.0f1
+          #- 2022.3.10f1
+          #- 2022.3.0f1
           #- 2022.2.21f1
           #- 2021.3.45f1
         targetPlatform:
@@ -216,7 +216,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name:
-            "Build ${{ matrix.targetPlatform }}$ on ${{ matrix.unityVersion}}$"
+            "Build ${{ matrix.targetPlatform }} on ${{ matrix.unityVersion}}"
           path: build
           retention-days: 14
           #"Build ${{ matrix.targetPlatform }}${{ startsWith(matrix.buildProfile, 'Assets') && ' (via Build Profile)' || '' }} on Ubuntu (${{ matrix.unityVersion }}_il2cpp_${{ matrix.buildWithIl2cpp }}_params_${{ matrix.additionalParameters }})"

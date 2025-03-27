@@ -37,14 +37,14 @@ env:
 jobs:
   buildForAllPlatformsUbuntu:
     name:
-      "${{ matrix.targetPlatform }} on ${{ matrix.unityVersion}}$"
+      "${{ matrix.targetPlatform }}$ on ${{ matrix.unityVersion}}$"
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
-        providerStrategy:
+        #providerStrategy:
           # - local-docker
-          - local
+          #- local
         projectPath:
           - test-project
         unityVersion:
@@ -159,7 +159,7 @@ jobs:
           unityVersion: ${{ matrix.unityVersion }}
           targetPlatform: ${{ matrix.targetPlatform }}
           #customParameters: -profile SomeProfile -someBoolean -someValue exampleValue ${{ matrix.additionalParameters }}
-          providerStrategy: ${{ matrix.providerStrategy }}
+          #providerStrategy: ${{ matrix.providerStrategy }}
           buildMethod: UnityBuilderAction.BuildScript.Build
           allowDirtyBuild: true
 
@@ -183,7 +183,7 @@ jobs:
           unityVersion: ${{ matrix.unityVersion }}
           targetPlatform: ${{ matrix.targetPlatform }}
           #customParameters: -profile SomeProfile -someBoolean -someValue exampleValue ${{ matrix.additionalParameters }}
-          providerStrategy: ${{ matrix.providerStrategy }}
+          #providerStrategy: ${{ matrix.providerStrategy }}
           buildMethod: UnityBuilderAction.BuildScript.Build
           allowDirtyBuild: true
 
@@ -206,7 +206,7 @@ jobs:
           unityVersion: ${{ matrix.unityVersion }}
           targetPlatform: ${{ matrix.targetPlatform }}
           #customParameters: -profile SomeProfile -someBoolean -someValue exampleValue ${{ matrix.additionalParameters }}
-          providerStrategy: ${{ matrix.providerStrategy }}
+          #providerStrategy: ${{ matrix.providerStrategy }}
           buildMethod: UnityBuilderAction.BuildScript.Build
           allowDirtyBuild: true
 
@@ -216,7 +216,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name:
-            "Build ${{ matrix.targetPlatform }}$"
+            "Build ${{ matrix.targetPlatform }}$ on ${{ matrix.unityVersion}}$"
           path: build
           retention-days: 14
           #"Build ${{ matrix.targetPlatform }}${{ startsWith(matrix.buildProfile, 'Assets') && ' (via Build Profile)' || '' }} on Ubuntu (${{ matrix.unityVersion }}_il2cpp_${{ matrix.buildWithIl2cpp }}_params_${{ matrix.additionalParameters }})"

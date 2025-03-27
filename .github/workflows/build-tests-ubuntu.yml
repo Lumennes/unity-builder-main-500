@@ -49,7 +49,18 @@ jobs:
           - test-project
         unityVersion:
           - 6000.0.43f1
+          - 6000.0.40f1
+          - 6000.0.30f1
+          - 6000.0.20f1
+          - 6000.0.10f1
+          - 6000.0.0f1
           - 2022.3.60f1
+          - 2022.3.50f1
+          - 2022.3.40f1
+          - 2022.3.30f1
+          - 2022.3.20f1
+          - 2022.3.10f1
+          - 2022.3.0f1
           #- 2022.2.21f1
           #- 2021.3.45f1
         targetPlatform:
@@ -57,53 +68,53 @@ jobs:
           - StandaloneWindows64 # Build a Windows 64-bit standalone with mono backend.
           #- StandaloneLinux64 # Build a Linux 64-bit standalone with mono/il2cpp backend.
           #- iOS # Build an iOS project.
-          - Android # Build an Android .apk.
-          - WebGL # WebGL.
-        buildWithIl2cpp:
-          - false
-          - true
-        additionalParameters:
-          - -param value
-          #- -standaloneBuildSubtarget Server
+          #- Android # Build an Android .apk.
+          #- WebGL # WebGL.
+        # buildWithIl2cpp:
+          # - false
+          # - true
+        #additionalParameters:
+        #  - -param value
+        #  - -standaloneBuildSubtarget Server
         # Skipping configurations that are not supported
-        exclude:
-          # No il2cpp support on Linux Host
-          - targetPlatform: StandaloneOSX
-            buildWithIl2cpp: true
-          - targetPlatform: StandaloneWindows64
-            buildWithIl2cpp: true
-          # Only builds with Il2cpp
-          - targetPlatform: iOS
-            buildWithIl2cpp: false
-          - targetPlatform: Android
-            buildWithIl2cpp: false
-          - targetPlatform: WebGL
-            buildWithIl2cpp: false
+        # exclude:
+          #No il2cpp support on Linux Host
+          # - targetPlatform: StandaloneOSX
+            # buildWithIl2cpp: true
+          # - targetPlatform: StandaloneWindows64
+            # buildWithIl2cpp: true
+          #Only builds with Il2cpp
+          # - targetPlatform: iOS
+            # buildWithIl2cpp: false
+          # - targetPlatform: Android
+            # buildWithIl2cpp: false
+          # - targetPlatform: WebGL
+            # buildWithIl2cpp: false
           # No dedicated server support
-          - targetPlatform: WebGL
-            additionalParameters: -standaloneBuildSubtarget Server
-          - targetPlatform: Android
-            additionalParameters: -standaloneBuildSubtarget Server
-          - targetPlatform: iOS
-            additionalParameters: -standaloneBuildSubtarget Server
-          # No dedicated server support on Linux Host
-          - targetPlatform: StandaloneOSX
-            additionalParameters: -standaloneBuildSubtarget Server
-          # No il2cpp dedicated server support on Linux Host
-          - targetPlatform: StandaloneWindows64
-            additionalParameters: -standaloneBuildSubtarget Server
-            buildWithIl2cpp: true
-        include:
-          - unityVersion: 6000.0.41f1
-            targetPlatform: WebGL
-          - unityVersion: 6000.0.41f1
-            targetPlatform: WebGL
-            buildProfile: 'Assets/Settings/Build Profiles/Sample WebGL Build Profile.asset'
+          # - targetPlatform: WebGL
+            # additionalParameters: -standaloneBuildSubtarget Server
+          # - targetPlatform: Android
+            # additionalParameters: -standaloneBuildSubtarget Server
+          # - targetPlatform: iOS
+            # additionalParameters: -standaloneBuildSubtarget Server
+          #No dedicated server support on Linux Host
+          # - targetPlatform: StandaloneOSX
+            # additionalParameters: -standaloneBuildSubtarget Server
+          #No il2cpp dedicated server support on Linux Host
+          # - targetPlatform: StandaloneWindows64
+            # additionalParameters: -standaloneBuildSubtarget Server
+            # buildWithIl2cpp: true
+        # include:
+          # - unityVersion: 6000.0.41f1
+            # targetPlatform: WebGL
+          # - unityVersion: 6000.0.41f1
+            # targetPlatform: WebGL
+            # buildProfile: 'Assets/Settings/Build Profiles/Sample WebGL Build Profile.asset'
 
-    steps:
-      - name: Clear Space for Android Build
-        if: matrix.targetPlatform == 'Android'
-        uses: jlumbroso/free-disk-space@v1.3.1
+    # steps:
+      # - name: Clear Space for Android Build
+        # if: matrix.targetPlatform == 'Android'
+        # uses: jlumbroso/free-disk-space@v1.3.1
 
       ###########################
       #         Checkout        #
@@ -126,10 +137,10 @@ jobs:
       ###########################
       #  Set Scripting Backend  #
       ###########################
-      - name: Set Scripting Backend To il2cpp
-        if: matrix.buildWithIl2cpp == true
-        run: |
-          mv -f "./test-project/ProjectSettings/ProjectSettingsIl2cpp.asset" "./test-project/ProjectSettings/ProjectSettings.asset"
+      # - name: Set Scripting Backend To il2cpp
+        # if: matrix.buildWithIl2cpp == true
+        # run: |
+          # mv -f "./test-project/ProjectSettings/ProjectSettingsIl2cpp.asset" "./test-project/ProjectSettings/ProjectSettings.asset"
 
       ###########################
       #          Build          #
@@ -144,10 +155,10 @@ jobs:
         with:
           buildName: 'GameCI Test Build'
           projectPath: ${{ matrix.projectPath }}
-          buildProfile: ${{ matrix.buildProfile }}
+          #buildProfile: ${{ matrix.buildProfile }}
           unityVersion: ${{ matrix.unityVersion }}
           targetPlatform: ${{ matrix.targetPlatform }}
-          customParameters: -profile SomeProfile -someBoolean -someValue exampleValue ${{ matrix.additionalParameters }}
+          #customParameters: -profile SomeProfile -someBoolean -someValue exampleValue ${{ matrix.additionalParameters }}
           providerStrategy: ${{ matrix.providerStrategy }}
           buildMethod: UnityBuilderAction.BuildScript.Build
           allowDirtyBuild: true
@@ -168,10 +179,10 @@ jobs:
         with:
           buildName: 'GameCI Test Build'
           projectPath: ${{ matrix.projectPath }}
-          buildProfile: ${{ matrix.buildProfile }}
+          #buildProfile: ${{ matrix.buildProfile }}
           unityVersion: ${{ matrix.unityVersion }}
           targetPlatform: ${{ matrix.targetPlatform }}
-          customParameters: -profile SomeProfile -someBoolean -someValue exampleValue ${{ matrix.additionalParameters }}
+          #customParameters: -profile SomeProfile -someBoolean -someValue exampleValue ${{ matrix.additionalParameters }}
           providerStrategy: ${{ matrix.providerStrategy }}
           buildMethod: UnityBuilderAction.BuildScript.Build
           allowDirtyBuild: true
@@ -191,10 +202,10 @@ jobs:
         with:
           buildName: 'GameCI Test Build'
           projectPath: ${{ matrix.projectPath }}
-          buildProfile: ${{ matrix.buildProfile }}
+          #buildProfile: ${{ matrix.buildProfile }}
           unityVersion: ${{ matrix.unityVersion }}
           targetPlatform: ${{ matrix.targetPlatform }}
-          customParameters: -profile SomeProfile -someBoolean -someValue exampleValue ${{ matrix.additionalParameters }}
+          #customParameters: -profile SomeProfile -someBoolean -someValue exampleValue ${{ matrix.additionalParameters }}
           providerStrategy: ${{ matrix.providerStrategy }}
           buildMethod: UnityBuilderAction.BuildScript.Build
           allowDirtyBuild: true
@@ -205,6 +216,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name:
-            "Build ${{ matrix.targetPlatform }}${{ startsWith(matrix.buildProfile, 'Assets') && ' (via Build Profile)' || '' }} on Ubuntu (${{ matrix.unityVersion }}_il2cpp_${{ matrix.buildWithIl2cpp }}_params_${{ matrix.additionalParameters }})"
+            "Build ${{ matrix.targetPlatform }}$"
           path: build
           retention-days: 14
+          #"Build ${{ matrix.targetPlatform }}${{ startsWith(matrix.buildProfile, 'Assets') && ' (via Build Profile)' || '' }} on Ubuntu (${{ matrix.unityVersion }}_il2cpp_${{ matrix.buildWithIl2cpp }}_params_${{ matrix.additionalParameters }})"

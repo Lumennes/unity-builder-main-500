@@ -153,15 +153,15 @@ jobs:
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
-          buildName: 'GameCI Test Build'
+          buildName: 'Build'
           projectPath: ${{ matrix.projectPath }}
           #buildProfile: ${{ matrix.buildProfile }}
           unityVersion: ${{ matrix.unityVersion }}
           targetPlatform: ${{ matrix.targetPlatform }}
           #customParameters: -profile SomeProfile -someBoolean -someValue exampleValue ${{ matrix.additionalParameters }}
           #providerStrategy: ${{ matrix.providerStrategy }}
-          buildMethod: UnityBuilderAction.BuildScript.Build
-          allowDirtyBuild: true
+          #buildMethod: UnityBuilderAction.BuildScript.Build
+          #allowDirtyBuild: true
 
       - name: Sleep for Retry
         if: ${{ steps.build-1.outcome == 'failure' }}
@@ -177,15 +177,15 @@ jobs:
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
-          buildName: 'GameCI Test Build'
+          buildName: 'Build'
           projectPath: ${{ matrix.projectPath }}
           #buildProfile: ${{ matrix.buildProfile }}
           unityVersion: ${{ matrix.unityVersion }}
           targetPlatform: ${{ matrix.targetPlatform }}
           #customParameters: -profile SomeProfile -someBoolean -someValue exampleValue ${{ matrix.additionalParameters }}
           #providerStrategy: ${{ matrix.providerStrategy }}
-          buildMethod: UnityBuilderAction.BuildScript.Build
-          allowDirtyBuild: true
+          #buildMethod: UnityBuilderAction.BuildScript.Build
+          #allowDirtyBuild: true
 
       - name: Sleep for Retry
         if: ${{ steps.build-2.outcome == 'failure' }}
@@ -200,15 +200,15 @@ jobs:
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
-          buildName: 'GameCI Test Build'
+          buildName: 'Build'
           projectPath: ${{ matrix.projectPath }}
           #buildProfile: ${{ matrix.buildProfile }}
           unityVersion: ${{ matrix.unityVersion }}
           targetPlatform: ${{ matrix.targetPlatform }}
           #customParameters: -profile SomeProfile -someBoolean -someValue exampleValue ${{ matrix.additionalParameters }}
           #providerStrategy: ${{ matrix.providerStrategy }}
-          buildMethod: UnityBuilderAction.BuildScript.Build
-          allowDirtyBuild: true
+          #buildMethod: UnityBuilderAction.BuildScript.Build
+          #allowDirtyBuild: true
 
       ###########################
       #          Upload         #
